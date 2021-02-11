@@ -17,6 +17,9 @@ John McCarthy later moved on to develop games for the PC, as well
 as 3D game library called 3DVECT39, and then worked programming  
 video games for Nintendo, Electronic Arts, Atari, and Sony.  
 
+If you like game and source code, please consider making a donation
+to john@mccarthy.net Paypal.
+
 1. Development of TARGET-X
 
 Development of TARGET-X was motivated by the aquisiion of a drum 
