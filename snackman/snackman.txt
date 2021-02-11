@@ -47,6 +47,9 @@ graphic. However once the game was pirated, there was no longer
 motivation or reason to replace the graphic with something 
 original.
 
+If you like game and source code, please consider making a donation
+to john@mccarthy.net Paypal. 
+
 2. Loading and playing SNACKMAN
     C64: LOAD "SNACKMAN",8
     C64: RUN
