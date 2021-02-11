@@ -1,0 +1,67 @@
+To run TARGET-X on COMMODORE 64: 
+    INSERT OR EMULATE DISK IMAGE "D64\TARGET-X.D64"
+    LOAD "TARGET-X",8
+    RUN
+
+0. Introduction to TARGET-X Commodore 64 game and source code
+
+John McCarthy attended college night school to learn 6502 
+programming in 1982, completing Advanced Assembly Language  
+Programming 965 at George Brown College, at the age of 14. 
+
+TARGET-X was John McCarthy's second complete video game for the
+Commodore 64. TARGET-X was started in early 1986, and finished 
+April 6, 1987.           
+
+John McCarthy later moved on to develop games for the PC, as well  
+as 3D game library called 3DVECT39, and then worked programming  
+video games for Nintendo, Electronic Arts, Atari, and Sony.  
+
+1. Development of TARGET-X
+
+Development of TARGET-X was motivated by the aquisiion of a drum 
+sound libary, a line drawing algorithm, and desire to 
+make a multi-color game.
+
+The game was made as quickly as possible, just to prove it could be 
+done by one person, and because the author really liked Missle 
+Command, which TARGET-X was cloned after.
+
+2. To compile TARGET-X:
+    - Delete existing object file
+    - Load assembler
+    - Run assembler
+    
+    C64: OPEN 1,8,15,"S:O":CLOSE 1     
+    C64: LOAD "ASSEMBLER*",9
+    C64: RUN
+            OBJECT FILE: O
+            HARD COPY: N
+            CROSS REFERENCE: N
+            SOURCE FILE NAME: LABELS
+
+To link TARGET-X:
+    - Reset C64
+    - Load STRINGMON
+    - Clear memory
+    - Link object file
+    - Delete O object file
+    - Delete TARGET-X.PRG file
+    - Save file 
+    
+    The original object file is deleted after linking, to free up 
+    disk space in order to save the TARGET-X.PRG file, on the 
+    the limited C64 disk.
+
+    C64: SYS 64738
+    C64: LOAD "8000.1*",9,1
+    C64: SYS 32768
+         .F 0801 5FFF 00
+         .* 8,"O"    
+         .@ 8,"S:O"
+         .@ 8,"S:TARGET-X"
+         .S 8,"TARGET-X",0801,40FF
+         .X
+    C64: RUN
+
+
