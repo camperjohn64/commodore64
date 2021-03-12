@@ -3,7 +3,7 @@ To run TARGET-X on COMMODORE 64:
     LOAD "TARGET-X",8
     RUN
 
-https://github.com/camperjohn64/commodore64/tree/main/
+https://github.com/camperjohn64/commodore64
 https://youtu.be/-pP6374K1Q8 
 
 0. Introduction to TARGET-X Commodore 64 game and source code
