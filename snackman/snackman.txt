@@ -3,6 +3,9 @@ To run SNACKMAN on COMMODORE 64:
     LOAD "SNACKMAN",8
     RUN
 
+https://github.com/camperjohn64/commodore64
+https://youtu.be/Fde3FTpy56U 
+
 0. Introduction to SNACKMAN Commodore 64 game and source code
 
 About the author
